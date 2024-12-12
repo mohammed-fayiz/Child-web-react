@@ -1,0 +1,32 @@
+.footer-main{
+    margin-top: 40px;
+    padding: 40px;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+    background-color: rgb(14, 127, 172);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+.footer-main p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-main a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.footer-main a:hover{
+    opacity: 0.5;
+}
+.link-section{
+    display: flex;
+    gap: 10px;
+}
